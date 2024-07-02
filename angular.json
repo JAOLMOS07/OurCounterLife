@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "OurCounterLife": {
+    "ourcounterlife": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "OurCounterLife:build:production"
+              "buildTarget": "ourcounterlife:build:production"
             },
             "development": {
-              "buildTarget": "OurCounterLife:build:development"
+              "buildTarget": "ourcounterlife:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "OurCounterLife:build"
+            "buildTarget": "ourcounterlife:build"
           }
         },
         "test": {
@@ -91,5 +91,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1ba17061-69fd-4c20-826d-7992cdf83411"
   }
 }
